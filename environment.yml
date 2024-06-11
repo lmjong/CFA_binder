@@ -1,4 +1,18 @@
+name: CFA_compute
 channels:
-  - conda-forge
   - defaults
-  - conda-forge/label/broken
+dependencies:
+  - jupyter
+  - matplotlib
+  - ipywidgets
+  - pandas
+  - xarray
+  - scipy
+  - panel
+  - param
+  - plotly
+  - scikit-learn
+  - watchfiles
+  - bokeh
+  - jupyter_bokeh
+prefix: /home/lmjong/miniconda3/envs/CFA_compute
